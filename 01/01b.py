@@ -1,6 +1,6 @@
 leftNums, rightNums = [], []
 
-with open('example.txt') as input:
+with open('input.txt') as input:
     while line := input.readline().strip():
         left, right = line.split()
         leftNums.append(int(left.strip()))
